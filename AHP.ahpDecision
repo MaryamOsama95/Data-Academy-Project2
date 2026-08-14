@@ -1,0 +1,1143 @@
+{
+  "$id": "1",
+  "ModelName": "Analytic Hierarchy Process",
+  "ProjectVersion": "5.0",
+  "AppName": "Analytic Hierarchy Process",
+  "AppAssemblyFilePath": "C:\\Program Files\\SpiceLogic Inc\\Analytic Hierarchy Process\\Analytic Hierarchy Process.exe",
+  "AppAssemblyVersion": "4.2.7",
+  "LoadedProjectFilePath": "C:\\Users\\Marwan\\Desktop\\main\\project2\\AHP.ahpDecision",
+  "MainViewModelInstance": {
+    "$id": "2"
+  },
+  "OptionViewModelInstance": {
+    "$id": "3",
+    "ObjectiveValueComparisons": [
+      {
+        "$id": "4",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$id": "5",
+          "Id": 2,
+          "Name": "Enviroment",
+          "Children": [
+            {
+              "$id": "6",
+              "Id": 6,
+              "Name": "waste reduction & management",
+              "Children": [],
+              "Parent": {
+                "$ref": "5"
+              },
+              "ItemIndex": 1,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "7",
+                "AttributeData": {
+                  "$id": "8",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "8"
+                }
+              },
+              "ObjectiveColor": "#FF008080"
+            },
+            {
+              "$id": "9",
+              "Id": 7,
+              "Name": "facilities design",
+              "Children": [],
+              "Parent": {
+                "$ref": "5"
+              },
+              "ItemIndex": 2,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "10",
+                "AttributeData": {
+                  "$id": "11",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "11"
+                }
+              },
+              "ObjectiveColor": "#FFA781DD"
+            },
+            {
+              "$id": "12",
+              "Id": 8,
+              "Name": "circular practices",
+              "Children": [],
+              "Parent": {
+                "$ref": "5"
+              },
+              "ItemIndex": 3,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "13",
+                "AttributeData": {
+                  "$id": "14",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "14"
+                }
+              },
+              "ObjectiveColor": "#FFFF8749"
+            },
+            {
+              "$id": "15",
+              "Id": 9,
+              "Name": "sustainable procurement",
+              "Children": [],
+              "Parent": {
+                "$ref": "5"
+              },
+              "ItemIndex": 4,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "16",
+                "AttributeData": {
+                  "$id": "17",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "17"
+                }
+              },
+              "ObjectiveColor": "#FF81954D"
+            }
+          ],
+          "IsProcessed": true,
+          "ItemIndex": 2,
+          "TooltipDescription": "",
+          "ObjectiveWeight": 0.74187423697297528,
+          "ObjectiveAttribute": {
+            "$id": "18",
+            "AttributeData": {
+              "$id": "19",
+              "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+              "MaximumSliderValue": 100,
+              "Step": 1
+            },
+            "SubjectiveData": {
+              "$ref": "19"
+            }
+          },
+          "ObjectiveColor": "#FF808000"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "20",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$id": "21",
+          "Id": 3,
+          "Name": "Social",
+          "Children": [
+            {
+              "$id": "22",
+              "Id": 10,
+              "Name": "patient satisfaction",
+              "Children": [],
+              "Parent": {
+                "$ref": "21"
+              },
+              "ItemIndex": 1,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "23",
+                "AttributeData": {
+                  "$id": "24",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "24"
+                }
+              },
+              "ObjectiveColor": "#FFAECC9A"
+            },
+            {
+              "$id": "25",
+              "Id": 11,
+              "Name": "employee satisfaction",
+              "Children": [],
+              "Parent": {
+                "$ref": "21"
+              },
+              "ItemIndex": 2,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "26",
+                "AttributeData": {
+                  "$id": "27",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "27"
+                }
+              },
+              "ObjectiveColor": "#FF5B25B2"
+            },
+            {
+              "$id": "28",
+              "Id": 12,
+              "Name": "affordability",
+              "Children": [],
+              "Parent": {
+                "$ref": "21"
+              },
+              "ItemIndex": 3,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "29",
+                "AttributeData": {
+                  "$id": "30",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "30"
+                }
+              },
+              "ObjectiveColor": "#FF7FFFD4"
+            },
+            {
+              "$id": "31",
+              "Id": 13,
+              "Name": "sustainable health",
+              "Children": [],
+              "Parent": {
+                "$ref": "21"
+              },
+              "ItemIndex": 4,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "32",
+                "AttributeData": {
+                  "$id": "33",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "33"
+                }
+              },
+              "ObjectiveColor": "#FFDEB887"
+            }
+          ],
+          "IsProcessed": true,
+          "ItemIndex": 3,
+          "TooltipDescription": "",
+          "ObjectiveWeight": 0.20272320087355722,
+          "ObjectiveAttribute": {
+            "$id": "34",
+            "AttributeData": {
+              "$id": "35",
+              "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+              "MaximumSliderValue": 100,
+              "Step": 1
+            },
+            "SubjectiveData": {
+              "$ref": "35"
+            }
+          },
+          "ObjectiveColor": "#FFB87800"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "36",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "6"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "37",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$id": "38",
+          "Id": 1,
+          "Name": "Economic",
+          "Children": [
+            {
+              "$id": "39",
+              "Id": 14,
+              "Name": "green growth",
+              "Children": [],
+              "Parent": {
+                "$ref": "38"
+              },
+              "ItemIndex": 1,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "40",
+                "AttributeData": {
+                  "$id": "41",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "41"
+                }
+              },
+              "ObjectiveRange": "0 to 1",
+              "ObjectiveColor": "#FF51843B"
+            },
+            {
+              "$id": "42",
+              "Id": 15,
+              "Name": "research & innovations",
+              "Children": [],
+              "Parent": {
+                "$ref": "38"
+              },
+              "ItemIndex": 2,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "43",
+                "AttributeData": {
+                  "$id": "44",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "44"
+                }
+              },
+              "ObjectiveRange": "0 to 1",
+              "ObjectiveColor": "#FF008CCB"
+            },
+            {
+              "$id": "45",
+              "Id": 16,
+              "Name": "savings in operational costs & enhanced profits",
+              "Children": [],
+              "Parent": {
+                "$ref": "38"
+              },
+              "ItemIndex": 3,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "46",
+                "AttributeData": {
+                  "$id": "47",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "47"
+                }
+              },
+              "ObjectiveRange": "0 to 1",
+              "ObjectiveColor": "#FFA5446B"
+            },
+            {
+              "$id": "48",
+              "Id": 17,
+              "Name": "indigenous production",
+              "Children": [],
+              "Parent": {
+                "$ref": "38"
+              },
+              "ItemIndex": 4,
+              "TooltipDescription": "",
+              "ObjectiveWeight": 0.25,
+              "ObjectiveAttribute": {
+                "$id": "49",
+                "AttributeData": {
+                  "$id": "50",
+                  "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                  "MaximumSliderValue": 100,
+                  "Step": 1
+                },
+                "SubjectiveData": {
+                  "$ref": "50"
+                }
+              },
+              "ObjectiveRange": "0 to 1",
+              "ObjectiveColor": "#FF808000"
+            }
+          ],
+          "IsProcessed": true,
+          "ItemIndex": 1,
+          "TooltipDescription": "",
+          "ObjectiveWeight": 0.055402562153467491,
+          "ObjectiveAttribute": {
+            "$id": "51",
+            "AttributeData": {
+              "$id": "52",
+              "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+              "MaximumSliderValue": 100,
+              "Step": 1
+            },
+            "SubjectiveData": {
+              "$ref": "52"
+            }
+          },
+          "ObjectiveColor": "#FFA5446B"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "53",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "9"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "54",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "39"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "55",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "42"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "56",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "45"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "57",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "48"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "58",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "12"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "59",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "15"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "60",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "22"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "61",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "25"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "62",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "28"
+        },
+        "PairComparisons": []
+      },
+      {
+        "$id": "63",
+        "AllUsedPairComparisons": [],
+        "Objective": {
+          "$ref": "31"
+        },
+        "PairComparisons": []
+      }
+    ],
+    "CanChangeEnforceTransitivity": true,
+    "EnforceTransitivityTooltipMessage": "",
+    "OptionList": [],
+    "EnabledOptionList": []
+  },
+  "ObjectiveViewModelInstance": {
+    "$id": "64",
+    "AllUsedPairComparisonItems": [
+      {
+        "$id": "65",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "Economic",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "Enviroment",
+        "RightItemDescription": "",
+        "SliderValue": 12,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      },
+      {
+        "$id": "66",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "Economic",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "Social",
+        "RightItemDescription": "",
+        "SliderValue": 12,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      },
+      {
+        "$id": "67",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "Enviroment",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "Social",
+        "RightItemDescription": "",
+        "SliderValue": 88,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      },
+      {
+        "$id": "68",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "waste reduction & management",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "facilities design",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "69",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "waste reduction & management",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "circular practices",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "70",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "facilities design",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "circular practices",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "71",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "waste reduction & management",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable procurement",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "72",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "facilities design",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable procurement",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "73",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "circular practices",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable procurement",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Enviroment"
+      },
+      {
+        "$id": "74",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "patient satisfaction",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "employee satisfaction",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "75",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "patient satisfaction",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "affordability",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "76",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "employee satisfaction",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "affordability",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "77",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "patient satisfaction",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable health",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "78",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "employee satisfaction",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable health",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "79",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "affordability",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "sustainable health",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Social"
+      },
+      {
+        "$id": "80",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "green growth",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "research & innovations",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Economic"
+      },
+      {
+        "$id": "81",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "green growth",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "savings in operational costs & enhanced profits",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Economic"
+      },
+      {
+        "$id": "82",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "research & innovations",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "savings in operational costs & enhanced profits",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Economic"
+      },
+      {
+        "$id": "83",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "green growth",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "indigenous production",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Economic"
+      },
+      {
+        "$id": "84",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "research & innovations",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "indigenous production",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Economic"
+      },
+      {
+        "$id": "85",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "savings in operational costs & enhanced profits",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "indigenous production",
+        "RightItemDescription": "",
+        "SliderValue": 50,
+        "ParentGroupName": "Economic"
+      }
+    ],
+    "BackupPairComparisonItems": [
+      {
+        "$ref": "65"
+      },
+      {
+        "$ref": "66"
+      },
+      {
+        "$ref": "67"
+      },
+      {
+        "$ref": "80"
+      },
+      {
+        "$ref": "81"
+      },
+      {
+        "$ref": "83"
+      },
+      {
+        "$ref": "82"
+      },
+      {
+        "$ref": "84"
+      },
+      {
+        "$ref": "85"
+      },
+      {
+        "$ref": "68"
+      },
+      {
+        "$ref": "69"
+      },
+      {
+        "$ref": "71"
+      },
+      {
+        "$ref": "70"
+      },
+      {
+        "$ref": "72"
+      },
+      {
+        "$ref": "73"
+      },
+      {
+        "$ref": "74"
+      },
+      {
+        "$ref": "75"
+      },
+      {
+        "$ref": "77"
+      },
+      {
+        "$ref": "76"
+      },
+      {
+        "$ref": "78"
+      },
+      {
+        "$ref": "79"
+      }
+    ],
+    "ParentGroup": {
+      "Root": false,
+      "Economic": false,
+      "Enviroment": false,
+      "Social": false
+    },
+    "IsAHPApp": true,
+    "EvaluatedObjectiveList": [
+      {
+        "$ref": "38"
+      },
+      {
+        "$ref": "5"
+      },
+      {
+        "$ref": "21"
+      }
+    ],
+    "PairComparisonList": [
+      {
+        "$ref": "65"
+      },
+      {
+        "$ref": "66"
+      },
+      {
+        "$ref": "67"
+      }
+    ],
+    "WeightAssignmentList": [],
+    "IsObjectiveWizardPanelExpanded": true,
+    "CanChangeEnforceTransitivity": true,
+    "EnforceTransitivityTooltipMessage": "",
+    "MultiCriteriaUtilityFunction": "0.01 * [green growth] + 0.01 * [research & innovations] + 0.01 * [savings in operational costs & enhanced profits] + 0.01 * [indigenous production] + 0.19 * [waste reduction & management] + 0.19 * [facilities design] + 0.19 * [circular practices] + 0.19 * [sustainable procurement] + 0.05 * [patient satisfaction] + 0.05 * [employee satisfaction] + 0.05 * [affordability] + 0.05 * [sustainable health]",
+    "MultiCriteriaUtilityFunctionUnit": "Utils",
+    "MultiCriteriaUtilityFunctionName": "Value",
+    "CurrentParentGroup": "Root"
+  },
+  "ScalingFunctionMenuViewModelInstance": {
+    "$id": "86",
+    "$type": "AnalyticHierarchyProcess.ViewModels.MenuViewModels.ScalingFunctionMenuViewModel, AnalyticHierarchyProcess.ViewModels",
+    "SelectedValueDimension": 1,
+    "ValueDimensionList": []
+  },
+  "OptionStrategyMenuViewModelInstance": {
+    "$id": "87",
+    "ProbabilityToleranceSliderValue": 5.0,
+    "HurwiczParameter": {
+      "$id": "88",
+      "DeviationFromBestPayOffSliderValue": 20,
+      "DeviationFromWorstPayOffSliderValue": 20,
+      "DegreeOfOptimismSliderValue": 50
+    },
+    "SelectedDecisionCriterionName": 1,
+    "DecisionCriterionDisabledTooltip": "",
+    "MonteSimulationData": {
+      "$id": "89",
+      "PreviousSelectedExecutionType": 2,
+      "SelectedExecutionType": 2,
+      "NumberOfBins": 12,
+      "NumberOfIteration": 1000
+    }
+  },
+  "GlobalPreferenceMenuViewModelInstance": {
+    "$id": "90",
+    "UnitOfUtility": "Utils",
+    "UseMatrixViewForPairComparison": true
+  },
+  "MethodsMenuViewModelInstance": {
+    "$id": "91",
+    "SelectedMethodType": "LargestEigenVector",
+    "SelectedWeightAttributeCombination": "WeightedSum"
+  },
+  "OptionsAnalyzerViewModelInstance": {
+    "$id": "92",
+    "SelectedMetrics": {},
+    "MetricsUncheckedByUser": {},
+    "ExpectedValueOfPerfectInformation": "NaN",
+    "DisplayableColumnList": [],
+    "RangeChartList": [],
+    "IsRelativeToStatusQuoChecked": false
+  },
+  "SensitivityAnalyzerViewModelInstance": {
+    "$id": "93",
+    "BringSensitivityObjectToView": {
+      "$id": "94",
+      "$type": "AnalyticHierarchyProcess.AppComponent.Handlers.BringSensitivityObjectToView, AnalyticHierarchyProcess.AppComponent"
+    },
+    "IsConsiderObjectiveWeights": true,
+    "IsConsiderObjectiveValues": true,
+    "IsConsiderProbabilities": true
+  },
+  "SharedViewModelInstance": {
+    "$id": "95",
+    "ExpectedValueTitle": ""
+  },
+  "ObjectiveDiagramViewModel": {
+    "$id": "96",
+    "NodesDataModelList": [
+      {
+        "$id": "97",
+        "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+        "IsRootNode": true,
+        "ChildNodes": [
+          {
+            "$id": "98",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "ParentId": 1,
+            "ChildNodes": [
+              {
+                "$id": "99",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 2,
+                "ChildNodes": [],
+                "NodeId": 3,
+                "Title": "green growth",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "100",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 2,
+                "ChildNodes": [],
+                "NodeId": 4,
+                "Title": "research & innovations",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "101",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 1,
+                "ParentId": 2,
+                "ChildNodes": [],
+                "NodeId": 5,
+                "Title": "savings in operational costs & enhanced profits",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "102",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 2,
+                "ParentId": 2,
+                "ChildNodes": [],
+                "NodeId": 6,
+                "Title": "indigenous production",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              }
+            ],
+            "NodeId": 2,
+            "Title": "Economic",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.055402562153467491
+          },
+          {
+            "$id": "103",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "ParentId": 1,
+            "ChildNodes": [
+              {
+                "$id": "104",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 7,
+                "ChildNodes": [],
+                "NodeId": 8,
+                "Title": "waste reduction & management",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "105",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 7,
+                "ChildNodes": [],
+                "NodeId": 9,
+                "Title": "facilities design",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "106",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 1,
+                "ParentId": 7,
+                "ChildNodes": [],
+                "NodeId": 10,
+                "Title": "circular practices",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "107",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 2,
+                "ParentId": 7,
+                "ChildNodes": [],
+                "NodeId": 11,
+                "Title": "sustainable procurement",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              }
+            ],
+            "NodeId": 7,
+            "Title": "Enviroment",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.74187423697297528
+          },
+          {
+            "$id": "108",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "OrderNoInParent": 1,
+            "ParentId": 1,
+            "ChildNodes": [
+              {
+                "$id": "109",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 12,
+                "ChildNodes": [],
+                "NodeId": 13,
+                "Title": "patient satisfaction",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "110",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "ParentId": 12,
+                "ChildNodes": [],
+                "NodeId": 14,
+                "Title": "employee satisfaction",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "111",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 1,
+                "ParentId": 12,
+                "ChildNodes": [],
+                "NodeId": 15,
+                "Title": "affordability",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              },
+              {
+                "$id": "112",
+                "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+                "OrderNoInParent": 2,
+                "ParentId": 12,
+                "ChildNodes": [],
+                "NodeId": 16,
+                "Title": "sustainable health",
+                "NodeType": 2,
+                "ObjectiveWeight": 0.25
+              }
+            ],
+            "NodeId": 12,
+            "Title": "Social",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.20272320087355722
+          }
+        ],
+        "NodeId": 1,
+        "Title": "AHP"
+      },
+      {
+        "$ref": "98"
+      },
+      {
+        "$ref": "99"
+      },
+      {
+        "$ref": "100"
+      },
+      {
+        "$ref": "101"
+      },
+      {
+        "$ref": "102"
+      },
+      {
+        "$ref": "103"
+      },
+      {
+        "$ref": "104"
+      },
+      {
+        "$ref": "105"
+      },
+      {
+        "$ref": "106"
+      },
+      {
+        "$ref": "107"
+      },
+      {
+        "$ref": "108"
+      },
+      {
+        "$ref": "109"
+      },
+      {
+        "$ref": "110"
+      },
+      {
+        "$ref": "111"
+      },
+      {
+        "$ref": "112"
+      }
+    ],
+    "ValueNodeWidth": 70.0,
+    "NodeHorizontalSpacing": 30.0,
+    "NodeVerticalSpacing": 53.353909465020635,
+    "DiagramOverviewZoomFactor": 0.7160520444901044
+  },
+  "GroupDecisionViewModelInstance": {
+    "$id": "113",
+    "GroupDecisionMemberList": [],
+    "ShowWelcomeScreen": true
+  },
+  "ProblemStatement": "AHP",
+  "IsThisProjectLoadedFromAFile": true,
+  "ProjectExtension": "ahpDecision",
+  "OpenFileDialogHeader": "Opening an Analytic Hierarchy Process project",
+  "SaveFileDialogHeader": "Saving an Analytic Hierarchy Process project",
+  "FileDialogFilter": "Analytic Hierarchy Process File (*.ahpDecision)|*.ahpDecision;",
+  "IsBusyInProcessing": true
+}

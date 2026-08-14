@@ -1,0 +1,469 @@
+set top_net [getTopNet $net]
+set SAVED_WITH_VERSION {3.2.0 made on Wed, 23 Feb 2019 13:36:28 -0500.  VCRevInfo 3197.  Installed on Windows}
+setDefaultCompareMode $net switch_to_matrix
+set x 22
+set y 445
+set desc {}
+set name {Economic}
+set color gainsboro
+set iconUU {}
+set iconFont "myDefaultFontCluster"
+set winFont "myDefaultFontCluster"
+set width 170
+set height 180
+set clusterName {Economic}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {green growth}
+set desc {}
+set x -1
+set y 0
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {indigenous production}
+set desc {}
+set x 5
+set y 101
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {research & innovations}
+set desc {}
+set x 0
+set y 29
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {savings in operational costs & enhanced profits}
+set desc {}
+set x 2
+set y 64
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set x 447
+set y 424
+set desc {}
+set name {Environment}
+set color gainsboro
+set iconUU {}
+set iconFont "myDefaultFontCluster"
+set winFont "myDefaultFontCluster"
+set width 170
+set height 180
+set clusterName {Environment}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {circular practices}
+set desc {}
+set x 0
+set y 0
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {facilities design}
+set desc {}
+set x 0
+set y 35
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {sustainable procurement}
+set desc {}
+set x 0
+set y 70
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {waste reduction & management}
+set desc {}
+set x 0
+set y 105
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set x -228
+set y -175
+set desc {}
+set name {Goal}
+set color gainsboro
+set iconUU {}
+set iconFont "myDefaultFontCluster"
+set winFont "myDefaultFontCluster"
+set width 170
+set height 180
+set clusterName {Goal}
+set clusterCompareWord {important}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {Economic}
+set desc {}
+set x 0
+set y 0
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Environment}
+set desc {}
+set x 0
+set y 35
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Social}
+set desc {}
+set x 0
+set y 70
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set x 891
+set y 367
+set desc {}
+set name {Social}
+set color gainsboro
+set iconUU {}
+set iconFont "myDefaultFontCluster"
+set winFont "myDefaultFontCluster"
+set width 170
+set height 180
+set clusterName {Social}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {Affordability}
+set desc {}
+set x 0
+set y 0
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {employee satisfaction}
+set desc {}
+set x 0
+set y 35
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {patient satisfaction}
+set desc {}
+set x 0
+set y 70
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {sustainable health}
+set desc {}
+set x 0
+set y 105
+set color {#F0F8FF}
+set iconUU {}
+set font {myDefaultFontNode}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set init {Economic}
+set final {Economic}
+connectClusters $net $init $final
+set init {Goal}
+set final {Economic}
+connectClusters $net $init $final
+set init {Environment}
+set final {Environment}
+connectClusters $net $init $final
+set init {Goal}
+set final {Environment}
+connectClusters $net $init $final
+set init {Goal}
+set final {Goal}
+connectClusters $net $init $final
+set init {Goal}
+set final {Social}
+connectClusters $net $init $final
+set init {Social}
+set final {Social}
+connectClusters $net $init $final
+setNodeCompareWord  $net {Affordability} {Social} {}
+setNodeCompareWord  $net {circular practices} {Environment} {important}
+setNodeCompareWord  $net {Economic} {Economic} {important}
+setNodeCompareWord  $net {Economic} {Goal} {important}
+setNodeCompareWord  $net {employee satisfaction} {Social} {}
+setNodeCompareWord  $net {Environment} {Environment} {important}
+setNodeCompareWord  $net {Environment} {Goal} {}
+setNodeCompareWord  $net {facilities design} {Environment} {}
+setNodeCompareWord  $net {green growth} {Economic} {important}
+setNodeCompareWord  $net {indigenous production} {Economic} {important}
+setNodeCompareWord  $net {patient satisfaction} {Social} {}
+setNodeCompareWord  $net {research & innovations} {Economic} {}
+setNodeCompareWord  $net {savings in operational costs & enhanced profits} {Economic} {important}
+setNodeCompareWord  $net {Social} {Goal} {preferable}
+setNodeCompareWord  $net {Social} {Social} {}
+setNodeCompareWord  $net {sustainable health} {Social} {important}
+setNetCompareWord $net {important}
+setNetClusterColor $net {gainsboro}
+setNetNodeColor $net {#F0F8FF}
+setNetClusterWinFont $net {myDefaultFontCluster}
+setNetClusterIconFont $net {myDefaultFontCluster}
+setNetNodeFont $net {myDefaultFontNode}
+setFormulaType $net 0
+#Working on net 0
+catch {limitPowerOptions $net 2 0}
+c-network readAllCompares -network $net -source {
+4
+Economic
+4
+green growth
+indigenous production
+research & innovations
+savings in operational costs & enhanced profits
+Environment
+4
+circular practices
+facilities design
+sustainable procurement
+waste reduction & management
+Goal
+3
+Economic
+Environment
+Social
+Social
+4
+Affordability
+employee satisfaction
+patient satisfaction
+sustainable health
+
+4 0,0 2,1 1,2 3,3 
+ 1.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  1.000000 
+0
+1 0,0 
+
+1
+1 1,0 
+
+2
+4 0,0 3,1 1,2 2,3 
+ 0.000000  0.137000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+3
+1 3,0 
+
+0,0,0
+4 1,0 2,1 3,2 0,3 
+ 0.134312  0.144582  0.166799 
+ 7.721972  0.143996 
+ 0.152110 
+
+0,1,0
+4 0,0 1,1 2,2 3,3 
+ 5.995254  6.944625  6.574204 
+ 0.129501  0.000000 
+ 0.000000 
+
+0,2,0
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+0,3,0
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+1,0,1
+4 0,0 1,1 2,2 3,3 
+ 5.694495  6.620707  6.063282 
+ 0.000000  6.174341 
+ 0.000000 
+
+1,1,1
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+1,2,1
+0 
+
+1,3,1
+0 
+
+2,0,0
+4 1,0 2,1 3,2 0,3 
+ 0.000000  0.000000  0.125000 
+ 0.000000  0.000000 
+ 0.000000 
+
+2,1,0
+0 
+
+2,2,0
+0 
+
+2,0,1
+0 
+
+2,1,1
+4 0,0 1,1 2,2 3,3 
+ 5.694495  6.620707  6.063282 
+ 6.195036  6.174341 
+ 0.165598 
+
+2,2,1
+0 
+
+2,0,2
+2 1,0 2,1 
+ 0.000000 
+
+2,1,2
+3 0,0 1,1 2,2 
+ 0.000000  0.000000 
+ 0.000000 
+
+2,2,2
+3 0,0 1,1 2,2 
+ 0.138301  0.133346 
+ 7.390402 
+
+2,0,3
+0 
+
+2,1,3
+0 
+
+2,2,3
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+3,0,3
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+3,1,3
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+3,2,3
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+3,3,3
+4 0,0 1,1 2,2 3,3 
+ 0.000000  0.000000  0.000000 
+ 0.000000  0.000000 
+ 0.000000 
+
+}
+ratings new -network $net -src {
+0
+
+0
+0
+
+0 0
+0 0
+}
+
+set FORMAT 1
+recreateNetInsideFrameOnly $net
