@@ -27,7 +27,7 @@ Healthcare organisations have limited resources and many sustainability goals co
 
 ## Results
 
-![AHP hierarchy with final weights](goal%203.jpg)
+![AHP hierarchy with final weights](res%203.jpg)
 *AHP hierarchy with the final weights (after the consistency adjustment).*
 
 **Criteria weights**
