@@ -2,7 +2,7 @@
 
 > Which sustainability factors should Oman's healthcare sector prioritise? A multi-criteria decision analysis using the Analytic Hierarchy Process (AHP) on judgements from 23 healthcare experts.
 
-![Global weights](images/global_weights.png)
+![Global weights](goal 3 (1).jpg)
 
 ## Problem
 Healthcare organisations have limited resources and many sustainability goals competing for them. This project quantifies how experts weigh **Economic**, **Environmental** and **Social** sustainability, and the 12 sub-factors inside them, to support prioritisation.
