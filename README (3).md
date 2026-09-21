@@ -26,9 +26,8 @@ Healthcare organisations have limited resources and many sustainability goals co
 5. Run a **sensitivity analysis** on the most influential judgement.
 
 ## Results
-
-![AHP hierarchy with final weights](res%203.jpg)
-*AHP hierarchy with the final weights (after the consistency adjustment).*
+![Hierarchy with global weights](res.GIF)
+*Sustainability factors hierarchy with the global weight of each sub-factor.*
 
 **Criteria weights**
 
